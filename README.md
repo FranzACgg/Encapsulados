@@ -36,7 +36,7 @@ Estudio la carrera de ing. Informatica en UADE, desde hace un año, mis objetivo
 <br clear="left"/>
 
 
-
+<br>
 
 
 
