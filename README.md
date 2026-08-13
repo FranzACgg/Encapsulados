@@ -53,8 +53,6 @@ busco enfrentar nuevos desafíos, aprender de los errores y mejorar continuament
 <br clear="left"/>
 
 
-# **Franz Acevedo**
-
 <table>
   <tr>
     <td width="220">
