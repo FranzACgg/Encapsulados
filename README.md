@@ -46,7 +46,7 @@ me llamo marcos, tengo 19 años y estoy estudiando la licenciatura en gestion de
 
 mi objetivo personal es continuar desarrollándome tanto a nivel académico como profesional, adquiriendo nuevos conocimientos y fortaleciendo mis habilidades. busco crecer dentro del área de tecnología, adquirir experiencia a través de proyectos y desafíos, y construir una sólida formación que me permita desenvolverme profesionalmente en el sector it.
 
-en mi tiempo libre me gusta compartir ver futbol y peliculas en familia, jugar juegos y dedicar parte de mi tiempo a aprender nuevas tecnologias y herramientas que complementen mis conocimientos universitarios.
+en mi tiempo libre disfruto ver futbol y peliculas con mi familia, jugar juegos y dedicar parte de mi tiempo a aprender nuevas tecnologias y herramientas que complementen mis conocimientos universitarios.
 
 busco enfrentar nuevos desafíos, aprender de los errores y mejorar continuamente mis habilidades, con el objetivo de estar preparado para desarrollarme en el ámbito profesional y participar en proyectos relacionados con la tecnología.
 
