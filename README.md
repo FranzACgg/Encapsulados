@@ -74,3 +74,23 @@ busco enfrentar nuevos desafíos, aprender de los errores y mejorar continuament
     </td>
   </tr>
 </table>
+
+
+<h1>Pérez Tomás Esteban</h1>
+
+<div>
+<img width="236" height="236" alt="TPerez472" src="https://github.com/user-attachments/assets/0cb4177f-8a87-4dce-9c7d-616128abf11e" align="left"/>
+
+Me llamo Tomás, estoy en segundo año de la carrera de ingenieria en informatica.
+
+`Objetivos:` Aprender y practicar habilidades para dominar TDA y Java. Mejorar Habilidades blandas para trabajo en equipo para el futuro profesional.
+
+`Gustos:` Me gusta el fútbol, hincha de Racing y jugar ajedrez.
+
+`Expectativa:` Conocer y aprender de mis compañeros. Trabajar en equipo para ir completando las actividades y trabajos prácticos de la cursada.
+
+</div>
+
+<br clear="left"/>
+
+
