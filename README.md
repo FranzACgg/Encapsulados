@@ -34,3 +34,28 @@
 Estudio la carrera de ing. Informatica en UADE, desde hace un año, mis objetivos actualmente es continuar con mis estudios de forma exitosa como lo estoy haciendo, espero aprender mucho de la materia actual, programacion II, la cual se incluye temas muy importantes en el desarrollo de esta carrera, manejando herramientas top en su campo como Java
 
 <br clear="left"/>
+
+
+# encapsulados
+
+<img align="left" width="350" height="350" alt="foto ima" src="https://github.com/user-attachments/assets/73d9b462-99ea-41c1-88e4-8a321f34e943" />
+
+👋 **presentacion:**  
+me llamo marcos, tengo 19 años y estoy estudiando la licenciatura en gestion de la tecnologia de la informacion, en la uade.
+
+<br>
+
+🎯 **objetivos:**  
+mi objetivo personal es continuar desarrollándome tanto a nivel académico como profesional, adquiriendo nuevos conocimientos y fortaleciendo mis habilidades. busco crecer dentro del área de tecnología, adquirir experiencia a través de proyectos y desafíos, y construir una sólida formación que me permita desenvolverme profesionalmente en el sector it.
+
+<br>
+
+🍿 **gustos:**  
+en mi tiempo libre me gusta compartir ver futbol y peliculas en familia, jugar juegos y dedicar parte de mi tiempo a aprender nuevas tecnologias y herramientas que complementen mis conocimientos universitarios.
+
+<br>
+
+🚀 **expectativas:**  
+busco enfrentar nuevos desafíos, aprender de los errores y mejorar continuamente mis habilidades, con el objetivo de estar preparado para desarrollarme en el ámbito profesional y participar en proyectos relacionados con la tecnología.
+
+<br clear="left"/>
