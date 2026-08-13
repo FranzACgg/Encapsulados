@@ -51,3 +51,28 @@ en mi tiempo libre me gusta compartir ver futbol y peliculas en familia, jugar j
 busco enfrentar nuevos desafíos, aprender de los errores y mejorar continuamente mis habilidades, con el objetivo de estar preparado para desarrollarme en el ámbito profesional y participar en proyectos relacionados con la tecnología.
 
 <br clear="left"/>
+
+
+# **Franz Acevedo**
+
+<table>
+  <tr>
+    <td width="220">
+      <img <img width="1200" height="1599" alt="WhatsApp Image 2026-08-13 at 3 06 29 PM" src="https://github.com/user-attachments/assets/1b410afb-a91f-42aa-8015-40e6ea7f3591" />
+/>
+    </td>
+    <td>
+      <h2>Franz Acevedo</h2>
+      <p>
+        Soy Estudiante de inginieria en sistemas de la informacion, tengo 22 años y soy estudiante de
+        UADE
+      </p>
+      <p>
+        Actualemente se programar en python, c++, tengo nivel intermedio (B2) de ingles
+      </p>
+      <p>
+          Mi hobby es practicar musica, crear viodeojuegos (en rpg maker) y leer.
+      </p>
+    </td>
+  </tr>
+</table>
