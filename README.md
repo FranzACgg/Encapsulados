@@ -36,15 +36,9 @@ Estudio la carrera de ing. Informatica en UADE, desde hace un año, mis objetivo
 <br clear="left"/>
 
 
-# encapsulados
 
-# encapsulados
 
----
 
-# encapsulados
-
----
 
 <img align="left" width="250" height="350" alt="foto ima" src="https://github.com/user-attachments/assets/73d9b462-99ea-41c1-88e4-8a321f34e943" />
 
