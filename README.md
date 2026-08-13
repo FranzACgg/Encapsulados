@@ -46,7 +46,7 @@ Estudio la carrera de ing. Informatica en UADE, desde hace un año, mis objetivo
 
 ---
 
-<img align="left" width="250" height="250" alt="foto ima" src="https://github.com/user-attachments/assets/73d9b462-99ea-41c1-88e4-8a321f34e943" />
+<img align="left" width="250" height="350" alt="foto ima" src="https://github.com/user-attachments/assets/73d9b462-99ea-41c1-88e4-8a321f34e943" />
 
 me llamo marcos, tengo 19 años y estoy estudiando la licenciatura en gestion de la tecnologia de la informacion, en la uade.
 
