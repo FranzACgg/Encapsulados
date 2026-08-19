@@ -101,6 +101,29 @@
       </p>
       <p>
         `Expectativa:` Conocer y aprender de mis compañeros. Trabajar en equipo para ir completando las actividades y trabajos prácticos de la cursada.
+
+        <table>
+  <tr>
+    <td width="220">
+      <img width="200" height="200" style="object-fit: cover; object-position: center;" alt="Franco Zalazar" src="https://github.com/user-attachments/assets/ea63ca44-c3c3-49f6-898e-6909088d2b58"/>
+    </td>
+    <td>
+      <h2>Franco Zalazar</h2>
+      <p>
+        Mi nombre es Franco Zalazar, tengo 21 años y estoy estudiando la carrera de
+        Ingeniería en Informática en UADE.
+      </p>
+      <p>
+        Mi objetivo con la materia de Programación II es adquirir nuevos conocimientos
+        y poder aplicar todo lo que llevo aprendiendo en el ámbito en proyectos reales.
+      </p>
+      <p>
+        Mi hobby principal son los videojuegos, pero también me gusta ver
+        películas/series, leer y el pádel.
+      </p>
+    </td>
+  </tr>
+</table>
       </p>
     </td>
   </tr>
