@@ -122,9 +122,23 @@
         películas/series, leer y el pádel.
       </p>
     </td>
+
+    
   </tr>
 </table>
       </p>
     </td>
   </tr>
 </table>
+
+# Bitácora
+<h2>Clase 1 </h2>
+N/A - Introducción a la materia
+<h2>Clase 2 </h2>
+Realizamos los primeros ejercicios de Java.
+<h2>Clase 3 </h2>
+Implementamos una cola y 3 estrategias de pilas.
+<h2>Clase 4 </h2>
+<h2>Clase 5 </h2>
+<h2>Clase 6 </h2>
+<h2>Clase 7 </h2>
