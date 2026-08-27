@@ -50,5 +50,4 @@ public class Pila implements PilaInterfaz{
     public boolean pilaVacia(){
         return contadorIndice == 0;
     }
-
 }

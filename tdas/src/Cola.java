@@ -1,66 +1,40 @@
-public class Cola implements colaInterfaz{
-    int[] elementos;
-    int contadorIndice;
-    int inicio;
-    int ultimo;
+public class Cola implements ColaInterfaz {
 
-    public Cola(){
-        inicio = 0;
-        ultimo = 0;
+    private static final int MAX = 100;
+    private int[] datos;
+    private int cantidad;
+
+    @Override
+    public void InicializarCola() {
+        datos = new int[MAX];
+        cantidad = 0;
     }
 
     @Override
-    public void iniciarCola(int tamanio){
-        elementos = new int[tamanio];
-    }
-
-    @Override
-    public void acolar(int elemento){
-        if (elementos[ultimo] != 0) {
-            System.out.println("No se puede acolar; Cola ya está llena");
+    public void Acolar(int x) {
+        if (cantidad < MAX) {
+            datos[cantidad] = x;
+            cantidad++;
         }
-        else {
-            elementos[ultimo] = elemento;
-            if (ultimo == elementos.length-1) {
-                ultimo = 0;
+    }
+
+    @Override
+    public void Desacolar() {
+        if (!ColaVacia()) {
+            for (int i = 0; i < cantidad - 1; i++) {
+                datos[i] = datos[i + 1];
             }
-            else {
-                ultimo++;
-            }
+            cantidad--;
         }
-
     }
-
 
     @Override
-    public void desacolar(){
-
-        if (elementos[inicio] == 0){
-            System.out.println("No hay elementos en la cola");
-            return;
-        }
-
-        elementos[inicio] = 0;
-
-        if (inicio == elementos.length - 1){
-            inicio = 0;
-        }else{
-            inicio ++;
-        }
-
+    public int Primero() {
+        return datos[0];
     }
 
-    public int primero(){
-        return elementos[inicio];
-    }
-
-    public boolean colaVacia(){
-        return elementos[inicio] == 0;
-    }
-
-    public void imprimirCola(){
-        for (int i : elementos){
-            System.out.println(i);
-        }
+    @Override
+    public boolean ColaVacia() {
+        return cantidad == 0;
     }
 }
