@@ -101,8 +101,9 @@
       </p>
       <p>
         `Expectativa:` Conocer y aprender de mis compañeros. Trabajar en equipo para ir completando las actividades y trabajos prácticos de la cursada.
-
-        <table>
+  </table>
+  
+  <table>
   <tr>
     <td width="220">
       <img width="200" height="200" style="object-fit: cover; object-position: center;" alt="Franco Zalazar" src="https://github.com/user-attachments/assets/ea63ca44-c3c3-49f6-898e-6909088d2b58"/>
