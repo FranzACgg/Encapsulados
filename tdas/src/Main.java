@@ -23,6 +23,55 @@ public class Main {
         */
         ColaPrioridad colaPrioridad = new ColaPrioridad();
         colaPrioridad.InicializarColaPrioridad();
+
+        /*
+
+        Ej 9
+
+        colaPrioridad.AcolarPrioridad(8, 0);
+        colaPrioridad.AcolarPrioridad(3, 0);
+
+        colaPrioridad.AcolarPrioridad(7, 1);
+        colaPrioridad.AcolarPrioridad(5, 1);
+        colaPrioridad.AcolarPrioridad(4, 1);
+
+        colaPrioridad.AcolarPrioridad(10, 2);
+        colaPrioridad.AcolarPrioridad(12, 2);
+
+        eliminarPrioridad(colaPrioridad,1);
+
+        // |12|10|3|8| |2|2|0|0|
+        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 8 Prioridad: 0
+        colaPrioridad.Desacolar();
+
+        // |12|10|3| |2|2|0|
+        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 3 Prioridad: 0
+        colaPrioridad.Desacolar();
+
+        // |12|10| |2|2|
+        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 10 Prioridad: 2
+        colaPrioridad.Desacolar();
+
+        // |12|   |2|
+        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 12 Prioridad: 2
+        */
+
+        /*
+
+        EJERCICIO 10
+
+            1. Pila. para poder deshacer hay que sacar el ultimo que entro. es exactmente el principio LIFO que usan las pilas.
+
+            2. Cola. Orden llegada es atender primero al primero que entro, por lo tanto es FIFO. no hay prioridad. por eso cola.
+
+            3. Cola prioridad. es orden de llegada con prioridad para atender primero los incidentes criticos.
+
+            4. Pila. mismo caso que deshacer, atras deshace los ultimo que entro. es pila
+
+            5. Cola. otra vez, orden de llegado = FIFO. no hay prioridad.
+
+            6. Cola prioridad. orden de llegada pero prioridad para atender primero las solicitudes mas urgentes.
+        */
     }
     static int cantidadElementos(Pila p) {
         int contadorPila = 0;
@@ -105,4 +154,26 @@ public class Main {
         }
         return cantidadPrioridad;
     }
+
+    static void eliminarPrioridad(ColaPrioridad cp, int prioridad) {
+
+        ColaPrioridadInterfaz aux = new ColaPrioridad();
+        aux.InicializarColaPrioridad();
+
+        while (!cp.ColaVacia()) {
+
+            int valorActual = cp.Primero();
+            int prioridadActual = cp.Prioridad();
+
+            if (prioridadActual != prioridad) {
+                aux.AcolarPrioridad(valorActual, prioridadActual);
+            }
+            cp.Desacolar();
+        }
+        while (!aux.ColaVacia()) {
+            cp.AcolarPrioridad(aux.Primero(), aux.Prioridad());
+            aux.Desacolar();
+        }
+    }
+
 }
