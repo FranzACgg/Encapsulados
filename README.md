@@ -140,6 +140,7 @@ Realizamos los primeros ejercicios de Java.
 <h2>Clase 3 </h2>
 Implementamos una cola y 3 estrategias de pilas.
 <h2>Clase 4 </h2>
+Realizamos los 10 ejercicios de Pila, Cola y Cola con Prioridad
 <h2>Clase 5 </h2>
 <h2>Clase 6 </h2>
 <h2>Clase 7 </h2>
