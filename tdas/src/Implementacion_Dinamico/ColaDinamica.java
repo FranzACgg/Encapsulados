@@ -4,7 +4,7 @@ import Interfaces.ColaTDA;
 
 public class ColaDinamica implements ColaTDA {
 
-    private Node frente; // apunta al primer nodo de la cola (el que se despacola primero)
+    private Node frente; // apunta al primer nodo de la cola (el que se desacola primero)
     private Node fondo;  // apunta al último nodo de la cola (donde se acola)
 
     @Override
