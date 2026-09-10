@@ -1,4 +1,8 @@
-public class ColaPrioridad implements ColaPrioridadInterfaz {
+package Implementacion_Estatico;
+
+import Interfaces.ColaPrioridadTDA;
+
+public class ColaPrioridadEstatica implements ColaPrioridadTDA {
 
     private static final int MAX = 100;
     private int[] datos;

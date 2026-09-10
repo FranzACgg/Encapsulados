@@ -1,16 +1,22 @@
+import Implementacion_Estatico.ColaEstatica;
+import Implementacion_Estatico.ColaPrioridadEstatica;
+import Implementacion_Estatico.PilaEstatica;
+
 public class Main {
 
     public static void main(String[] args) {
-        /*Pila pila = new Pila();
-        pila.iniciarPila(5);
-        pila.apilar(1);
-        pila.apilar(2);
-        pila.apilar(3);
-        System.out.println("Cantidad elementos: " + cantidadElementos(pila));
-        System.out.println(pila.tope());
-        System.out.println(contiene(pila, 2));*/
         /*
-        Cola cola = new Cola();
+        PilaEstatica pila = new PilaEstatica();
+        pila.InicializarPila();
+        pila.Apilar(1);
+        pila.Apilar(2);
+        pila.Apilar(3);
+        System.out.println("Cantidad elementos: " + cantidadElementos(pila));
+        System.out.println(pila.Tope());
+        System.out.println(contiene(pila, 2));
+        */
+        /*
+        ColaEstatica cola = new ColaEstatica();
         cola.InicializarCola();
         cola.Acolar(1);
         cola.Acolar(2);
@@ -20,44 +26,42 @@ public class Main {
         eliminar(cola, 2);
         System.out.println("Suma: " + sumar(cola));
         System.out.println(cola.Primero());
+        
+        ColaPrioridadEstatica ColaPrioridadEstatica = new ColaPrioridadEstatica();
+        ColaPrioridadEstatica.InicializarColaPrioridad();
         */
-        ColaPrioridad colaPrioridad = new ColaPrioridad();
-        colaPrioridad.InicializarColaPrioridad();
-
         /*
-
         Ej 9
 
-        colaPrioridad.AcolarPrioridad(8, 0);
-        colaPrioridad.AcolarPrioridad(3, 0);
+        ColaPrioridadEstatica.AcolarPrioridad(8, 0);
+        ColaPrioridadEstatica.AcolarPrioridad(3, 0);
 
-        colaPrioridad.AcolarPrioridad(7, 1);
-        colaPrioridad.AcolarPrioridad(5, 1);
-        colaPrioridad.AcolarPrioridad(4, 1);
+        ColaPrioridadEstatica.AcolarPrioridad(7, 1);
+        ColaPrioridadEstatica.AcolarPrioridad(5, 1);
+        ColaPrioridadEstatica.AcolarPrioridad(4, 1);
 
-        colaPrioridad.AcolarPrioridad(10, 2);
-        colaPrioridad.AcolarPrioridad(12, 2);
+        ColaPrioridadEstatica.AcolarPrioridad(10, 2);
+        ColaPrioridadEstatica.AcolarPrioridad(12, 2);
 
-        eliminarPrioridad(colaPrioridad,1);
+        eliminarPrioridad(ColaPrioridadEstatica,1);
 
         // |12|10|3|8| |2|2|0|0|
-        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 8 Prioridad: 0
-        colaPrioridad.Desacolar();
+        System.out.println("Primero: " + ColaPrioridadEstatica.Primero() + " Prioridad: " + ColaPrioridadEstatica.Prioridad() + "\n"); // Primero: 8 Prioridad: 0
+        ColaPrioridadEstatica.Desacolar();
 
         // |12|10|3| |2|2|0|
-        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 3 Prioridad: 0
-        colaPrioridad.Desacolar();
+        System.out.println("Primero: " + ColaPrioridadEstatica.Primero() + " Prioridad: " + ColaPrioridadEstatica.Prioridad() + "\n"); // Primero: 3 Prioridad: 0
+        ColaPrioridadEstatica.Desacolar();
 
         // |12|10| |2|2|
-        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 10 Prioridad: 2
-        colaPrioridad.Desacolar();
+        System.out.println("Primero: " + ColaPrioridadEstatica.Primero() + " Prioridad: " + ColaPrioridadEstatica.Prioridad() + "\n"); // Primero: 10 Prioridad: 2
+        ColaPrioridadEstatica.Desacolar();
 
         // |12|   |2|
-        System.out.println("Primero: " + colaPrioridad.Primero() + " Prioridad: " + colaPrioridad.Prioridad() + "\n"); // Primero: 12 Prioridad: 2
+        System.out.println("Primero: " + ColaPrioridadEstatica.Primero() + " Prioridad: " + ColaPrioridadEstatica.Prioridad() + "\n"); // Primero: 12 Prioridad: 2
         */
 
         /*
-
         EJERCICIO 10
 
             1. Pila. para poder deshacer hay que sacar el ultimo que entro. es exactmente el principio LIFO que usan las pilas.
@@ -73,42 +77,42 @@ public class Main {
             6. Cola prioridad. orden de llegada pero prioridad para atender primero las solicitudes mas urgentes.
         */
     }
-    static int cantidadElementos(Pila p) {
+    static int cantidadElementos(PilaEstatica p) {
         int contadorPila = 0;
-        Pila pInvertido = new Pila();
-        pInvertido.iniciarPila(10000);
-        while (!p.pilaVacia()) {
-            pInvertido.apilar(p.tope());
-            p.desapilar();
+        PilaEstatica pInvertido = new PilaEstatica();
+        pInvertido.InicializarPila();
+        while (!p.PilaVacia()) {
+            pInvertido.Apilar(p.Tope());
+            p.Desapilar();
             contadorPila++;
         }
-        while (!pInvertido.pilaVacia()) {
-            p.apilar(pInvertido.tope());
-            pInvertido.desapilar();
+        while (!pInvertido.PilaVacia()) {
+            p.Apilar(pInvertido.Tope());
+            pInvertido.Desapilar();
         }
         return contadorPila;
     }
-    static boolean contiene(Pila p, int x) {
+    static boolean contiene(PilaEstatica p, int x) {
         boolean apareceEnPila = false;
-        Pila pInvertido = new Pila();
-        pInvertido.iniciarPila(10000);
-        while (!p.pilaVacia()) {
-            pInvertido.apilar(p.tope());
-            if (p.tope() == x) {
+        PilaEstatica pInvertido = new PilaEstatica();
+        pInvertido.InicializarPila();
+        while (!p.PilaVacia()) {
+            pInvertido.Apilar(p.Tope());
+            if (p.Tope() == x) {
                 apareceEnPila = true;
             }
-            p.desapilar();
+            p.Desapilar();
         }
-        while (!pInvertido.pilaVacia()) {
-            p.apilar(pInvertido.tope());
-            pInvertido.desapilar();
+        while (!pInvertido.PilaVacia()) {
+            p.Apilar(pInvertido.Tope());
+            pInvertido.Desapilar();
         }
         return apareceEnPila;
     }
 
-    static int sumar(Cola c) {
+    static int sumar(ColaEstatica c) {
         int sumaElementos = 0;
-        Cola c2 = new Cola();
+        ColaEstatica c2 = new ColaEstatica();
         c2.InicializarCola();
         while (!c.ColaVacia()) {
             c2.Acolar(c.Primero());
@@ -122,8 +126,8 @@ public class Main {
         return sumaElementos;
     }
 
-    static void eliminar(Cola c, int x) {
-        Cola c2 = new Cola();
+    static void eliminar(ColaEstatica c, int x) {
+        ColaEstatica c2 = new ColaEstatica();
         c2.InicializarCola();
         while (!c.ColaVacia()) {
             c2.Acolar(c.Primero());
@@ -137,8 +141,8 @@ public class Main {
         }
     }
 
-    static int contarPrioridad(ColaPrioridad cp, int p) {
-        ColaPrioridad c2 = new ColaPrioridad();
+    static int contarPrioridad(ColaPrioridadEstatica cp, int p) {
+        ColaPrioridadEstatica c2 = new ColaPrioridadEstatica();
         c2.InicializarColaPrioridad();
         int cantidadPrioridad = 0;
         while (!cp.ColaVacia()) {
@@ -155,9 +159,9 @@ public class Main {
         return cantidadPrioridad;
     }
 
-    static void eliminarPrioridad(ColaPrioridad cp, int prioridad) {
+    static void eliminarPrioridad(ColaPrioridadEstatica cp, int prioridad) {
 
-        ColaPrioridadInterfaz aux = new ColaPrioridad();
+        ColaPrioridadEstatica aux = new ColaPrioridadEstatica();
         aux.InicializarColaPrioridad();
 
         while (!cp.ColaVacia()) {
