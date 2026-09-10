@@ -134,7 +134,7 @@
 
 # Bitácora
 <h2>Clase 1 </h2>
-N/A - Introducción a la materia
+Introducción a la materia
 <h2>Clase 2 </h2>
 Realizamos los primeros ejercicios de Java.
 <h2>Clase 3 </h2>
@@ -144,4 +144,5 @@ Realizamos los 10 ejercicios de Pila, Cola y Cola con Prioridad
 <h2>Clase 5 </h2>
 Realizamos ejercicios de Conjunto y Diccionario
 <h2>Clase 6 </h2>
+Pila, Cola y Cola con Prioridad dinamicos
 <h2>Clase 7 </h2>
