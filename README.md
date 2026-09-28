@@ -146,3 +146,4 @@ Realizamos ejercicios de Conjunto y Diccionario
 <h2>Clase 6 </h2>
 Pila, Cola y Cola con Prioridad dinamicos
 <h2>Clase 7 </h2>
+Practica pre Parcial
